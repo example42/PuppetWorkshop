@@ -2,7 +2,7 @@
 # Here you can start to test simple resources
 # and play with Puppet code
 
-
+# file { '/tmp/test.me': content => inline_template('<%= scope.to_hash %>') }
 
 
 # Sample local site class to include
